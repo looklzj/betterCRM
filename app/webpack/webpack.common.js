@@ -3,26 +3,7 @@ const webpack = require('webpack')
 
 let jsEntries = [
   // base
-  'base/header/header',
-  'base/footer/footer',
-  'base/pagination/pagination',
-  'base/right-side-reserve/right-side-reserve',
-  // home
-  'home/home-banner/home-banner',
-  'home/home-cards/home-cards',
-  // case
-  'case/list/case-ban-cate',
-  // store
-  'store/list/store-ban-cate',
-  'store/id/store-body',
-  // product
-  'product/list/product-ban-cate',
-  'product/id/product-body',
-  // plan
-  'plan/list/plan-ban',
-  // strategy
-  'strategy/list/strategy-ban',
-  'utils/lazy'
+  'base.js',
 ]
 const arrToObj = arr => {
   const obj = {}
